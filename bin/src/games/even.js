@@ -1,7 +1,8 @@
 import readlineSync from 'readline-sync';
+import welcomeGame from '../bin/src/cli.js';
 import runGame from '../index.js';
 
-export const brainEven = () => {
+export const welcomeGame = () => {
  console.log('Answer "yes" if the number is even, otherwise answer "no".');
  
   const roundsCount = 3;
@@ -26,5 +27,5 @@ export const brainEven = () => {
    console.log('Congratulations,' + userName + '!');
  };
  
-brainEven();
+export default runGame;
 

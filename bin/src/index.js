@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import welcomeGame from '../src/cli.js';
+import welcomeGame from '../bin/src/cli.js';
 
 const roundsCount = 3;
 

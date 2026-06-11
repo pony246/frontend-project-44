@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 import runGame from '../index.js';
 
-export const brainCalc = () => {
+export const welcomeGame = () => {
 const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 const description = 'What is the result of the expression?';
@@ -33,9 +33,9 @@ const generateRoundData = () => {
   };
 };
 
-const brainCalc = () => {
+const runGame = () => {
   runEngine(description, generateRoundData);
 };
 
-export default brainCalc;
+export default runGame;
 }
